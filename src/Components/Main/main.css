@@ -1,5 +1,4 @@
 .our {
-	/* position: relative; */
 	width: 93%;
 	display: flex;
 	justify-content: space-between;
@@ -13,12 +12,15 @@
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
+	margin-left: 50px;
 	line-height: 30px;
 	letter-spacing: 0.3px;
 	color: #252733;
 }
 
 .our__box {
+	position: absolute;
+	left: 79%;
 	display: flex;
 	align-items: center;
 }
